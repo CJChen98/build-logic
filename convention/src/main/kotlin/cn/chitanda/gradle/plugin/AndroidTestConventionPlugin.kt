@@ -7,7 +7,7 @@ import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
 
 /**
- *@author: Chen
+ *@author: guyuuan
  *@createTime: 2022/11/13 19:57
  *@description:
  **/

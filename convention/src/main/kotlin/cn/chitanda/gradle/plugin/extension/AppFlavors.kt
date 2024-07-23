@@ -5,7 +5,7 @@ import com.android.build.api.dsl.ProductFlavor
 import org.gradle.api.Project
 
 /**
- * @author: Chen
+ * @author: guyuuan
  * @createTime: 2023/2/17 16:19
  * @description:
  **/

@@ -1,7 +1,7 @@
 package cn.chitanda.gradle.plugin.extension
 
 /**
- *@author: Chen
+ *@author: guyuuan
  *@createTime: 2022/11/13 18:31
  *@description:
  **/

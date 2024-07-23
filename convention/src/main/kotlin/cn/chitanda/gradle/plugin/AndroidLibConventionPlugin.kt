@@ -11,7 +11,7 @@ import org.gradle.kotlin.dsl.getByType
 import org.gradle.kotlin.dsl.kotlin
 
 /**
- *@author: Chen
+ *@author: guyuuan
  *@createTime: 2022/11/13 19:50
  *@description:
  **/
