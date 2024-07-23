@@ -54,7 +54,7 @@ paging3 = "3.3.0"
 paging3Compose = "3.3.0"
 timber = "5.0.1"
 chitandaGradlePlugin = "unspecified"
-destinations="2.0.0-beta09"
+destinations="2.1.0-beta10"
 material = "1.12.0"
 androidxDocumentFile = "1.1.0-alpha01"
 [libraries]
