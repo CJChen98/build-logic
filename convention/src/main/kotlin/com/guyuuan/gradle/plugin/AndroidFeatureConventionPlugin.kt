@@ -1,4 +1,4 @@
-package cn.chitanda.gradle.plugin
+package com.guyuuan.gradle.plugin
 
 /**
  *@author: guyuuan

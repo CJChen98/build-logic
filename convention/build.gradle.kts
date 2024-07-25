@@ -19,34 +19,34 @@ dependencies {
 
 gradlePlugin {
     plugins {
-        with(libs.plugins.chitanda.android) {
+        with(libs.plugins.guyuuan.android) {
             create("androidAppCompose") {
                 id = app.compose.get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidAppComposeConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidAppComposeConventionPlugin"
             }
             register("androidApp") {
                 id = app.asProvider().get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidAppConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidAppConventionPlugin"
             }
             register("androidLibCompose") {
                 id = lib.compose.get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidLibComposeConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidLibComposeConventionPlugin"
             }
             register("androidLib") {
                 id = lib.asProvider().get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidLibConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidLibConventionPlugin"
             }
             register("androidFeature") {
                 id = feature.get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidFeatureConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidFeatureConventionPlugin"
             }
             register("androidHilt") {
                 id = hilt.get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidHiltConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidHiltConventionPlugin"
             }
             register("androidTest") {
                 id = test.get().pluginId
-                implementationClass = "cn.chitanda.gradle.plugin.AndroidTestConventionPlugin"
+                implementationClass = "com.guyuuan.gradle.plugin.AndroidTestConventionPlugin"
             }
         }
 

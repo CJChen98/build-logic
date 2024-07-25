@@ -1,6 +1,6 @@
-package cn.chitanda.gradle.plugin
+package com.guyuuan.gradle.plugin
 
-import cn.chitanda.gradle.plugin.extension.configureAndroidCompose
+import com.guyuuan.gradle.plugin.extension.configureAndroidCompose
 import com.android.build.gradle.LibraryExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

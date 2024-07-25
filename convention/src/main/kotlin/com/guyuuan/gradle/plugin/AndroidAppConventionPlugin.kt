@@ -1,8 +1,8 @@
 @file:Suppress("UnstableApiUsage")
 
-package cn.chitanda.gradle.plugin
+package com.guyuuan.gradle.plugin
 
-import cn.chitanda.gradle.plugin.extension.configureKotlinAndroid
+import com.guyuuan.gradle.plugin.extension.configureKotlinAndroid
 import com.android.build.api.dsl.ApplicationExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

@@ -1,4 +1,4 @@
-package cn.chitanda.gradle.plugin.extension
+package com.guyuuan.gradle.plugin.extension
 
 import com.android.build.api.dsl.CommonExtension
 import com.android.build.api.dsl.ProductFlavor

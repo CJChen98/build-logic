@@ -1,6 +1,6 @@
 @file:Suppress("UnstableApiUsage")
 
-package cn.chitanda.gradle.plugin
+package com.guyuuan.gradle.plugin
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
